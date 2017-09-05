@@ -1,0 +1,13 @@
+In every HTML file you need tags, which are these symbles: "<" and ">"
+To close a tag you must put a "/" infront of the second tag: "</"
+To start off every HTML document you must have <!DOCTYPE html> which declares that it is HTML
+Then you must have a structure to your code by adding <html> and </html> and everything goes in between them
+"<head>" is a tag that contains metadata, metadata is info that isn't shown in plain site but is still very active in the code
+If you want to create a title you would use <title>
+The title appears at the top of the webpage for the site title
+Now you must add a body to the code by writing <body>
+Once a code has a body, it can have text and images and all sorts of cool stuff
+<p> is the command to start a paragraph or any piece of text that you would like
+If you want to paragraph to be seperated into many different lines you must add a break
+A break is done by the command "<br />"
+Spacing is also very important for HTML as it is easier to read and helps the program fun efficiently 
