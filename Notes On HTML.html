@@ -3,7 +3,8 @@
 	<head>
 	<!-- The name of this tab and notes is "HTML Notes" -->
 		<title> HTML Notes </title>
-		<h1> Basics of HTML Programming </h1>
+		<h1> HTML Notes </h1> 
+		<h2> Basics of HTML Programming </h2>
 	</head>
 	<body>
 	 <ul> 
@@ -14,25 +15,25 @@
 			"< head>" is a tag that contains metadata, metadata is info that isn't shown in plain site but is still very active in the code. </li>
 	    <li>If you want to create a title you would use "< title>", the title appears at the top of the webpage for the site title. </li>
 	 </ul>
-	 <h1> Lists </h1>
+	 <h2> Lists </h2>
 	 <ul> 
-		<li> To create a list, you must start with a "< ul>" tag and finish with a "< /ul>" </li>
-	    <li> For every item you want to name, you must put the tag <code> &ltli> </code> </li>
-		<p> Here is an example of the coding required to make an <strong> UNORDERED </strong> list:</p>
+		<li> To create a list, you must start with a <code> &ltul> </code> tag and finish with a <code> &lt&#47ul> </code> tag
+	    <li> For every item you want to name, you must put the tag <code> &ltli> </code> and finish with the tag <code> &lt&#47li> </code> </li>
+		<li> Here is an example of the coding required to make an <strong> UNORDERED </strong> list: </li>
 		<p> <code> &ltul> </code> </p>
 		<p> <code> &ltli> This is the first item on my list </code> </p>
 		<p> <code> &ltli> This is the second item on my list </code> </p>
 		<p> <code> &lt/ul> </code> </p>
 		
-		<p> Here is an example of the coding required to make an <strong> ORDERED / NUMERICAL </strong> list: </p>
+		<li> Here is an example of the coding required to make an <strong> ORDERED / NUMERICAL </strong> list: </li>
 		<p> <code> &ltol> </code> </p>
 		<p>	<code> &ltli> This is the first item on my list </code> </p>
 		<p>	<code> &ltli> This is the second item on my list </code> </p>
 		<p> <code> &lt&#47ol&gt </code> </p>
 	 </ul>
-	 <h1> Images </h1>
+	 <h2> Images </h2>
 	  <ul>
-		<li> To add an image, you must have the tag "< img src=..../>" </li>
+		<li> To add an image, you must have the tag <code> &ltimg src=..../> </code> </li>
 		<li> The "src" element specifies the URL or Web Address	of the image </li>
 		<li> The "alt" attribute puts in a text incase the user cannot view it </li>
 		<li> An example of putting in an image is like this: </li>
@@ -45,7 +46,7 @@
 		<li> This code will make the image appear like this: 
 		<img src="https://c402277.ssl.cf1.rackcdn.com/photos/1102/images/story_full_width/Gorillas_7.31.2012_Our_closest_cousins_HI_105193.jpg?1345537507" alt=Gorilla style="width:205px;height:205px;">
 	  </ul>
-	 <h1> Videos </h1>
+	 <h2> Videos </h2>
 	  <ul>
 	    <li> In HTML, there are 3 supported video formats: </li>
 	  <ol> 
@@ -64,19 +65,23 @@
 		<li> <a href="https://www.w3schools.com/html/html5_video.asp">HTML Video Tutorial </a> </li>
 	  </ul> 
 	  
-	 <h1> Links </h1>
+	 <h2> Links </h2>
 	  <ul> 
 		<li> An HTML Link is fairly simple to put into a website or whatever you would like </li>
 		<li> All you need is the tag <code> &lta href="..."> </code> </li>
 		<li> In the apostrophes (""), you must add the link to the desired website you are linking </li>
 		<li> Straight after the <strong> Greater Than </strong> (>) symbol, you are required to caption whatever the website is to let users know what website they are clicking on </li>
-	  </ul>
-	  
-	  
+		<li> Here is an example of putting a link into HTML: </li>
+		<p> <code> &lt!DOCTYPEhtml> </code> </p>
+		<p> <code> &lthtml </code> </p>
+		<p> <code> &ltbody> </code> </p>
+		<p> <code> &lta href="http://moodle.loyola.ca/login/index.php">Loyola Moodle Website &lt/a> </code> </p>
+		<p> <code> &lt&#47body&gt </code> </p>
+		<p> <code> &lt&#47html&gt </code> </p>
+		<li> That code will show this link: <a href="http://moodle.loyola.ca/login/index.php">Loyola Moodle Website </a> </li>  
 	  </ul>
 	</body>
 </html>
-
 
 
 
