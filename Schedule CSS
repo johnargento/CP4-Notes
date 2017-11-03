@@ -1,0 +1,45 @@
+.English {
+	background-color: lightblue;
+}
+
+.Science {
+	background-color: lightgreen;
+}
+
+.none {
+	background-color: black;
+}
+
+.History {
+	background-color: orange;
+}
+
+.Math {
+	background-color: pink;
+}
+
+.Religion {
+	background-color: blueviolet;
+}
+
+.ComputerProgramming {
+	background-color: crimson;
+
+}
+
+.French {
+	background-color: yellow;
+}
+
+.Architecture {
+	background-color: MediumSlateBlue
+}
+
+.Gym {
+	background-color: MediumOrchid
+}
+
+.Lunch {
+	background-color: tomato
+}
+
