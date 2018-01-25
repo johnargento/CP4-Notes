@@ -1,8 +1,8 @@
 table {
 	color: black;
-	border-color: black
+	border-color: black;
+	background-color: white;
 }
-
 
 .English {
 	background-color: lightblue;
@@ -51,5 +51,22 @@ table {
 
 h1 {
 	text-align: center;
-	font-weight: bold;                                                                                                                                    
+	font-weight: bold;    
+}
+
+#SearchBar {
+	width: 14%;
+	border: 4px solid;
+	font-size: 22px;
+	background-color: MediumSlateBlue;
+	
+}
+
+#myInput {
+	font-size: 22px;
+	border: 4px solid;
+	width: 85%;
+	text-align: left;
+	font-family: Arial;
+	background-color: LightBlue;
 }
