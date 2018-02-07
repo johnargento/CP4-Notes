@@ -1,7 +1,10 @@
-switch
+var expr = 'class';
+switch (class) {
 
 case 0: 
 	class = "English"
+	
+
 	break;
 case 1:
 	class = "French"
@@ -39,3 +42,5 @@ case 11
 case 12
 	class = "N/A"
 	break;
+	
+}
