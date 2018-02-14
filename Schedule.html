@@ -105,11 +105,18 @@
 	 <td class="French"> French </td>
 	 <td class="none"> N/A </td>
 	</tr>
-  
+
     <form id= "SearchBar">
 	 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search For Classes">
 	 <input type="submit" id="SearchBar" value="Search">
 	</form>
+	
+	<script>
+	 function myFunction() {
+     var x = document.getElementById("mySearch").placeholder;
+	 document.getElementById("demo").innerHTML = x;
+	}
+	</script>
 	
   
   </tbody>
