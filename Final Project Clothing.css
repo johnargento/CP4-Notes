@@ -50,3 +50,8 @@ li {
 li:last-child {
     border-right: none;
 }
+
+body {
+	background-image: url("https://static.highsnobiety.com/wp-content/uploads/2016/07/07111012/yeezy-shoes-price-ranked-resell-1.jpg");
+	background-repeat: no-repeat;
+}
