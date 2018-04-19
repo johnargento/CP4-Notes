@@ -54,3 +54,22 @@ li:last-child {
 body {
 	background-image: url("https://akns-images.eonline.com/eol_images/Entire_Site/2014329/rs_1024x759-140429111759-1024.2kanye-west-childood6.ls42914_copy.jpg");
    }
+   
+div {
+     background-color: lightgrey;
+     width: 250px;
+     border: 25px blue;
+     padding: 25px;
+     margin: 25px;
+	 font-size: 15px;
+    }
+
+.topright {
+    position: absolute;
+    width: 250px;
+	border: 25px blue;
+	top: 52px;
+    right: 16px;
+    font-size: 15px;
+	background-color: lightgrey;
+}
