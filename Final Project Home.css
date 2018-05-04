@@ -36,11 +36,11 @@ li a {
 }
 
 li a:hover {
-    background-color: purple;
+    background-color: lightgray;
 }
 
-.active {
-	background-color: purple;
+active {
+	background-color: red;
 }
 
 li {
@@ -63,3 +63,9 @@ h1 {
  body {
 	background-image: url("https://prettymuchamazing.com/.image/t_share/MTM5Mzg0MTgyODE1MDczNDQz/kanye-west-tourjpg.jpg");
    }
+   
+h1 { 
+  font-size: 75px;
+  text-align: center;
+
+}
