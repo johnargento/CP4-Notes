@@ -36,11 +36,11 @@ li a {
 }
 
 li a:hover {
-    background-color: purple;
+    background-color: lightgray;
 }
 
-.active {
-	background-color: purple;
+active {
+	background-color: yellow;
 }
 
 li {
@@ -52,6 +52,13 @@ li:last-child {
 }
 
 body {
-	background-color: black;
+	background-image: url("http://www.slate.com/content/dam/slate/articles/arts/brow_beat/2016/02/gospel_according_to_kanye/160209_BB_Kanye-Gospel.jpg.CROP.promo-xlarge2.jpg");
+	background-repeat: repeat;
 }
 
+#button {
+	background-color: black;
+	width: 50px;
+	height: 40px;
+	border-color: black;
+}
