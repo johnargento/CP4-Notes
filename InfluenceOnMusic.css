@@ -1,0 +1,86 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+	float: center;
+}
+
+a{
+    display: block;
+    padding: 8px;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: purple;
+}
+
+.active {
+	background-color: purple;
+}
+
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+h1 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+body {
+	background-image: url("https://timedotcom.files.wordpress.com/2017/01/kanye-west-college-course.jpg");
+	background-repeat: no-repeat;
+}
+
+div {
+     background-color: lightgrey;
+     width: 300px;
+     border: 25px blue;
+     padding: 25px;
+     margin: 25px;
+	 font-size: 15px;
+	 top: 57px;
+    }
+
+.topright {
+    position: absolute;
+    width:350px;
+	border: 25px blue;
+	top: 57px;
+    right: 160px;
+    font-size: 15px;
+	background-color: lightgrey;
+}
