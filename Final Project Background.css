@@ -40,7 +40,7 @@ li a:hover {
 }
 
 active {
-	background-color: red;
+	background-color: blue;
 }
 
 li {
@@ -51,23 +51,25 @@ li:last-child {
     border-right: none;
 }
 
-h1 {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-}
-
- body {
-	background-image: url("https://prettymuchamazing.com/.image/t_share/MTM5Mzg0MTgyODE1MDczNDQz/kanye-west-tourjpg.jpg");
+body {
+	background-image: url("https://akns-images.eonline.com/eol_images/Entire_Site/2014329/rs_1024x759-140429111759-1024.2kanye-west-childood6.ls42914_copy.jpg");
    }
    
-h1 { 
-  font-size: 75px;
-  text-align: center;
+div {
+     background-color: lightgrey;
+     width: 250px;
+     border: 25px blue;
+     padding: 25px;
+     margin: 25px;
+	 font-size: 15px;
+    }
 
+.topright {
+    position: absolute;
+    width: 250px;
+	border: 25px blue;
+	top: 57px;
+    right: 16px;
+    font-size: 15px;
+	background-color: lightgrey;
 }
-
-
